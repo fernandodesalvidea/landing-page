@@ -1,6 +1,7 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/* ----------------------HEADER STYLING---------------------------------- */
 .header {
     display: flex;
     justify-content: space-between;
@@ -8,18 +9,71 @@ body {
     color: #f9faf8;
     padding: 1.2rem;
 }
-
 .header-logo {
     color: #f9faf8;
     font-size: 24px;
 }
-
-.header-links, a{
+.header-links {
     display: flex;
     gap: 1.5rem;
+}
+.header-links a {
     color: #e5e7eb;
     text-decoration: none;
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
+
+/* ----------------------HERO STYLING---------------------------------- */
+.hero-container {
+    display: flex;
+    background-color: #1f2937;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+}
+.hero-header {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero-subtext {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-wrap: wrap; 
+}
+.hero-image, img {
+    width: 500px;
+    height: auto;
+    padding: 0.4rem;
+}
+.hero-button button {
+    border: none;
+    box-shadow: none;
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.7rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ----------------------METHOD STYLING---------------------------------- */
+
+.method-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
 

@@ -103,7 +103,7 @@ body {
     border: 4px solid #3882F6;
     border-radius: 10px;
 }
-/* ----------------------METHOD STYLING---------------------------------- */
+/* ----------------------QUOTE STYLING---------------------------------- */
 .testimonial-container {
     display: flex;
     flex-direction: column;
@@ -113,7 +113,6 @@ body {
     padding-bottom: 100px;
     gap: 8px;
 }
-
 .quote {
     display: flex;
     justify-content: center;
@@ -125,15 +124,55 @@ body {
     font-style: oblique 10deg;
     font-weight: lighter;
 }
-
 .quote-author {
     display: flex;
     justify-content: end;
     margin-right: 350px;
     color: #1f2937;
     font-weight: 700;
-
 }
+/* ----------------------CALL TO ACTION STYLING---------------------------------- */
+.action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-box {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center; 
+    gap: 40px;
+    padding: 45px;
+    margin: 80px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+.action-header {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.action-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up-button button {
+    background-color: #3882F6;
+    border: 1.5px solid;
+    border-color:  #f9faf8;
+    border-radius: 8px;
+    padding: 6px 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+
+
 
 
 

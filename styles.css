@@ -74,14 +74,12 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 .method-pictures-container {
     display: flex;
     gap: 40px;
     justify-content: center;
     margin-bottom: 70px;
 }
-
 .method-header {
     display: flex;
     justify-content: center;
@@ -91,22 +89,20 @@ body {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-
 .image-subtext {
     font-size: 14px;
     color: #555;
     margin-top: 8px;
 }
-
 .method-image {
     width: 200px;
     text-align: center;
 }
-
 .method-image img{
     width: 100%; 
     height: auto;
     border: 4px solid #3882F6;
     border-radius: 10px;
 }
+/* ----------------------METHOD STYLING---------------------------------- */
 
